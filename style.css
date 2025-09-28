@@ -12,4 +12,82 @@ body{
     line-height: normal;
 }
 
+.container{
+    background-color: #A24936;
+    border-radius: 25px;
+    height: 530px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 20px;
+}
+
+.frog{
+    background-color: #3E5641;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    text-align: end;
+    color: white;
+}
+
+
+.hallo{
+    background-image: url("images/HALLO.jpg");
+    background-size: cover;
+}
+
+.wat-the{
+    background-image: url("images/wat-the.jpg");
+    background-size: cover;
+}
+
+.mmm{
+    background-image: url("images/mmm.jpg");
+    background-size: cover;
+}
+
+.muwahaha{
+    background-image: url("images/muwahaha.jpg");
+    background-size: cover;
+}
+
+.luvyew{
+    background-image: url("images/luvyew.jpg");
+    background-size: cover;
+}
+
+.wat-the{
+    background-image: url("images/wat-the.jpg");
+    background-size: cover;
+}
+
+.laugh{
+    background-image: url("images/laugh.jpg");
+    background-size: cover;
+}
+
+.ogee{
+    background-image: url("images/ogee.jpg");
+    background-size: cover;
+}
+
+.um-actually{
+    background-image: url("images/um-actually.jpg");
+    background-size: cover;
+}
+
+.vhat{
+    background-image: url("images/vhat.jpg");
+    background-size: cover;
+}

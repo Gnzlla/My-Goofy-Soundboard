@@ -15,8 +15,8 @@ body{
 .container{
     background-color: #A24936;
     border-radius: 25px;
-    height: 530px;
-    width: 1000px;
+    height: 590px;
+    width: 940px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@ body{
     grid-template-columns: repeat(3, 150px);
     grid-template-rows: repeat(3, 150px);
     gap: 20px;
+    justify-content: center;
 }
 
 .frog{
@@ -39,8 +40,8 @@ body{
     cursor: pointer;
     text-align: end;
     color: white;
+    box-shadow: 5px 5px bisque;
 }
-
 
 .hallo{
     background-image: url("images/HALLO.jpg");
